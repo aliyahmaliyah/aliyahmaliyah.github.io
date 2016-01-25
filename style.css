@@ -1,10 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Righteous|Raleway:400,600|Parisienne);
-html{
+html {
     background-color: #000000;
 }
-.header{
-    background-color: #000000;
-    margin: auto;
+header{
+    background-image: url("background.jpg");
+    text-align: center;
+}
+.overlay{
+    opacity: .75;
+}
+body {
+    text-align: center;
 }
 h1 {
     font-family: "Parisienne", cursive;
@@ -19,31 +25,26 @@ h2 {
 }
 ul {
     font-family:"Raleway", sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     color: #ffffff;
 }
 p {
     font-family: "Raleway", sans-serif;
-    font-size: 20px;
-    color: #ffffff;
-}
-div p {
-    font-style: italic;
-    font: "Parisienne", cursive;
+    font-size: 16px;
     color: #ffffff;
 }
 .profile {
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    float: left;
-}
-div {
-    background: url(background.jpg) no-repeat center center fixed; 
-  background-size: cover;
 }
 a {
     color: #ff0080;
+}
+a img {
+    height: 50px;
+    width: 50px;
+}
+a:hover{
+    color: #ffffff;
 }
