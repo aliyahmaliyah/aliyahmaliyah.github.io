@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Righteous|Raleway:400,600|Parisienne);
+
+html{
+ background: url(background.jpg) no-repeat center center fixed; 
+ background-size: cover;
+}
+h1 {
+    font: "Righteous", cursive;
+    font-size: 40px;
+    color: #ffffff;
+}
+h2 {
+    font: "Parisienne", sans-serif;
+    font-size: 28px;
+    color: #ffffff;
+}
+p{
+    font: "Raleway", sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+}
+div p{
+    font-style: italic;
+    font: "Parisienne", cursive;
+    color: #ffffff;
+}
+.profile {
+    float: left;
+    height: 100px;
+    width: 100px;
+}
