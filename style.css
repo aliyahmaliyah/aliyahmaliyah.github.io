@@ -7,7 +7,7 @@ header{
     text-align: center;
 }
 .overlay{
-    opacity: .75;
+    opacity: .80;
 }
 body {
     text-align: center;
@@ -40,11 +40,22 @@ p {
 }
 a {
     color: #ff0080;
+    text-decoration: none;
 }
 a img {
     height: 50px;
     width: 50px;
+    
 }
 a:hover{
     color: #ffffff;
+}
+
+.button:hover{
+    opacity: .25;
+}
+.button:active{
+    opacity: .75;
+    transform: rotate(-20deg);
+    
 }
