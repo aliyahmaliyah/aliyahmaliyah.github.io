@@ -52,9 +52,10 @@ a:hover {
     color: #ffffff;
 }
 .button {
-box-shadow: -5px 5px 5px #777;
+
 border-radius: 50%
 }
-.button:hover{
-    opacity: .50;
+
+.button:hover {
+    box-shadow: -5px 5px 5px #444;
 }
