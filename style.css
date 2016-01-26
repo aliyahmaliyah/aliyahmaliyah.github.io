@@ -2,11 +2,11 @@
 html {
     background-color: #000000;
 }
-header{
+header {
     background-image: url("background.jpg");
     text-align: center;
 }
-.overlay{
+.overlay {
     opacity: .80;
 }
 body {
@@ -37,6 +37,7 @@ p {
     height: 200px;
     width: 200px;
     border-radius: 50%;
+    margin-top: 15px;
 }
 a {
     color: #ff0080;
@@ -45,17 +46,13 @@ a {
 a img {
     height: 50px;
     width: 50px;
-    
 }
-a:hover{
+a:hover {
     color: #ffffff;
 }
-
-.button:hover{
-    opacity: .25;
+.button {
+-moz-box-shadow: -5px -5px 5px 5px #888;
+-webkit-box-shadow: -5px -5px 5px 5px#888;
+box-shadow: -5px -5px 5px 5px #888;
 }
-.button:active{
-    opacity: .75;
-    transform: rotate(-20deg);
-    
 }
