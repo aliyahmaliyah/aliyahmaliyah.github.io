@@ -58,8 +58,3 @@ border-radius: 50%
 .button:hover{
     opacity: .50;
 }
-.button:active{
-    opacity: .50;
-    box-shadow: -5px 1px 5px #777;
-    transform: translateY(4px);
-}
